@@ -35,3 +35,9 @@ console.log(Array.isArray(original));
 
 const partner = null;
 console.log(partner === null);
+
+console.log(typeof false); // "boolean"
+console.log(typeof 0); // "number"
+
+console.log(0 == false); // true
+// == does type coercion, it converts false into number which is 0, so expression becomes 0 == 0 which is true

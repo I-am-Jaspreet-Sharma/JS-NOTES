@@ -27,3 +27,6 @@ console.log(Number.EPSILON);
 
 const value2 = "11" / 1;
 console.log(value2);
+
+console.log(NaN === NaN); // false
+console.log(typeof NaN === typeof NaN); // true

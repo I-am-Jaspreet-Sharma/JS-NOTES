@@ -151,3 +151,16 @@ const obj = {
     [key1]: "Jaspreet",
 };
 console.log(obj); // {name: "Jaspreet"}
+
+// ---------------------------------------------------------------------------------------------------------------------------------------------------- //
+
+console.log(typeof Object); // "function"
+
+const obj1 = new Object();
+console.log(obj1); // {}
+
+const obj2 = {name: "Jaspreet", age: 21};
+const copiedObj = Object.assign({}, obj2);
+console.log(copiedObj); // {name: "Jaspreet", age: 21}
+
+// Object.assign() creates a shallow copy
